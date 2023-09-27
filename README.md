@@ -1,4 +1,4 @@
-# Dummy project for VSCode debugging og ESP8266 ESP-12E microcontrollers
+# Dummy project for VSCode IDE debugging (gdb) with ESP8266 ESP-12E microcontrollers
 aftera a LOT of struggling with the settings, I finally made it to get the ball rolling.
 
 IF the launch.json file inside the .vscode folder gets overwritten by PlatformIO use content 
