@@ -4,13 +4,12 @@ aftera a LOT of struggling with the settings, I finally made it to get the ball 
 IF the launch.json file inside the .vscode folder gets overwritten by PlatformIO use content 
 from this file. Read explanation in comments (note: this is a .json with comments)
 
-// ON PROJECT INITIALIZAZION ALF OF THIS MAY WELL BE REMOVED BY
-// PLATFORMIO AUTOMATICALLY GENERATED CONTENT (too bad!).
-// PLEASE REMEBER TO MANUALLY ADD IT AGAIN EVERYTIME
-//
-
-    "version": "0.2.0",
-
+    // ON PROJECT INITIALIZAZION ALF OF THIS MAY WELL BE REMOVED BY
+	// PLATFORMIO AUTOMATICALLY GENERATED CONTENT (too bad!).
+	// PLEASE REMEBER TO MANUALLY ADD IT AGAIN EVERYTIME
+	//
+	
+	"version": "0.2.0",
     "configurations": [
 
         {
