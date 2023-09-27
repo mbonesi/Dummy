@@ -25,7 +25,11 @@ from this file. Read explanation in comments (note: this is a .json with comment
 
             //
 
-            // #include "GDBStub.h" and call gdbstub_init();
+            // #ifdef VM_DEBUG_GDB
+            
+            //     #include "GDBStub.h" and call gdbstub_init();
+
+            // #endif
 
             //
 
