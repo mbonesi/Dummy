@@ -1,16 +1,11 @@
 # Dummy project for VSCode debugging og ESP8266 ESP-12E microcontrollers
 aftera a LOT of struggling with the settings, I finally made it to get the ball rolling.
 
-the launch.json file inside the .vscode folder gets overwritten by PlatformIO so I added a dedicated file
-with the content and some explanation in comments (note: this is a .json with comments)
+IF the launch.json file inside the .vscode folder gets overwritten by PlatformIO use content 
+from this file. Read explanation in comments (note: this is a .json with comments)
 
-// ON PROJECT INITIALIZAZION AL OF THIS MAY WELL BE REMOVED BY
-// PLATFORMIO AUTOMATICALLY GENERATED CONTENT.
-// PLEASE REMEBER TO MANUALLY ADD IT AGAIN EVERYTIME
-//
-
-// ON PROJECT INITIALIZAZION AL OF THIS MAY WELL BE REMOVED BY
-// PLATFORMIO AUTOMATICALLY GENERATED CONTENT.
+// ON PROJECT INITIALIZAZION ALF OF THIS MAY WELL BE REMOVED BY
+// PLATFORMIO AUTOMATICALLY GENERATED CONTENT (too bad!).
 // PLEASE REMEBER TO MANUALLY ADD IT AGAIN EVERYTIME
 //
 
