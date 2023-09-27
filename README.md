@@ -16,105 +16,55 @@ from this file. Read explanation in comments (note: this is a .json with comment
         {
 
             // for debug configuration, remember to:
-
             //
-
             // use proper compiler switches in platformio.in
-
             // build_flags = -Og -ggdb3 -g3 -D VM_DEBUG_GDB
-
             //
-
-            // #ifdef VM_DEBUG_GDB
-            
-            //     #include "GDBStub.h" and call gdbstub_init();
-
+            // #ifdef VM_DEBUG_GDB
+            // #include "GDBStub.h" and call gdbstub_init();
             // #endif
-
             //
 
             "name": "(gdb) Launch",
-
             "type": "cppdbg",
-
             "request": "launch",
-
             // targetArchitecture of the ESP8266 is "arm", although deprecated it made this work!
-
             "targetArchitecture": "arm",
-
             // the full path of the built ELF image
-
             "program": "${workspaceRoot}/.pio/build/esp12e/firmware.elf",
-
             "args": [],
-
             "stopAtEntry": "false",
-
             // this tells VSCode that the target supports only 1 HW breakpoints
-
             // (https://code.visualstudio.com/docs/cpp/launch-json-reference)
-
             "hardwareBreakpoints": {
-
                 "require": true,
-
                 "limit": 1
-
             },
-
             "cwd": "${workspaceFolder}",
-
             "environment": [],
-
             "externalConsole": true,
-
             "MIMode": "gdb",
-
             // full path of the xtensa-lx106-elf-gdb.executable running on Windows OS
-
             "miDebuggerPath": "C:/Users/mbone/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-gdb.exe",
-
             // the COM port assigned by windows to the board
-
             "miDebuggerServerAddress": "\\\\.\\COM4",
-
             // GDB config stuff from https://arduino-esp8266.readthedocs.io/en/latest/gdb.html
-
             "setupCommands": [
-
                 { "text": "set remote hardware-breakpoint-limit 1" },
-
                 { "text": "set remote hardware-watchpoint-limit 1" },
-
                 { "text": "set remote interrupt-on-connect on" },
-
                 { "text": "set remote kill-packet off" },
-
                 { "text": "set remote symbol-lookup-packet off" },
-
                 { "text": "set remote verbose-resume-packet off" },
-
                 { "text": "mem 0x20000000 0x3fefffff ro cache" },
-
                 { "text": "mem 0x3ff00000 0x3fffffff rw" },
-
                 { "text": "mem 0x40000000 0x400fffff ro cache" },
-
                 { "text": "mem 0x40100000 0x4013ffff rw cache" },
-
                 { "text": "mem 0x40140000 0x5fffffff ro cache" },
-
                 { "text": "mem 0x60000000 0x60001fff rw" },
-
                 // If you want to go fast (default: 115200)
-
                 { "text": "set serial baud 921600" }
-
             ]
-
         }
-
     ]
-
 }
