@@ -4,13 +4,13 @@ aftera a LOT of struggling with the settings, I finally made it to get the ball 
 IF the launch.json file inside the .vscode folder gets overwritten by PlatformIO use content 
 from this file. Read explanation in comments (note: this is a .json with comments)
 
-    // ON PROJECT INITIALIZAZION ALF OF THIS MAY WELL BE REMOVED BY
+    	// ON PROJECT INITIALIZAZION ALF OF THIS MAY WELL BE REMOVED BY
 	// PLATFORMIO AUTOMATICALLY GENERATED CONTENT (too bad!).
 	// PLEASE REMEBER TO MANUALLY ADD IT AGAIN EVERYTIME
 	//
 	
 	"version": "0.2.0",
-    "configurations": [
+    	"configurations": [
 
         {
 
@@ -32,7 +32,7 @@ from this file. Read explanation in comments (note: this is a .json with comment
             "targetArchitecture": "arm",
             
             // the full path of the built ELF image
-            "program": "${workspaceRoot}/.pio/build/esp12e/firmware.elf",
+            "program": "${workspaceRoot}/.pio/build/${workspaceFolderBasename}/firmware.elf",
             "args": [],
             "stopAtEntry": "false",
             
