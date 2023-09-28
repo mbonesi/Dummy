@@ -9,8 +9,8 @@ from this file. Read explanation in comments (note: this is a .json with comment
  	// PLATFORMIO AUTOMATICALLY GENERATED CONTENT (too bad!).
   	// PLEASE REMEBER TO MANUALLY ADD IT AGAIN EVERYTIME
    	//
-	"version": "0.2.0",
-    	"configurations": [
+    "version": "0.2.0",
+    "configurations": [
 
         {
 
