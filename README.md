@@ -48,7 +48,7 @@ from this file. Read explanation in comments (note: this is a .json with comment
             "MIMode": "gdb",
             
             // full path of the xtensa-lx106-elf-gdb.executable running on Windows OS
-            "miDebuggerPath": "C:/Users/mbone/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-gdb.exe",
+            "miDebuggerPath": "<USER_HOME_PATH>/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-gdb.exe",
             
             // the COM port assigned by windows to the board
             "miDebuggerServerAddress": "\\\\.\\COM4",
