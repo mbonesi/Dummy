@@ -1,4 +1,4 @@
-# Dummy project for VSCode IDE debugging (gdb) with ESP8266 ESP-12E microcontrollers
+# launch.json file for VSCode IDE debugging (gdb) with ESP8266 ESP-12E microcontrollers
 aftera a LOT of struggling with the settings, I finally made it to get the ball rolling.
 
 IF the launch.json file inside the .vscode folder gets overwritten by PlatformIO use content 
@@ -34,7 +34,7 @@ from this file. Read explanation in comments (note: this is a .json with comment
             // the full path of the built ELF image
             "program": "${workspaceRoot}/.pio/build/${workspaceFolderBasename}/firmware.elf",
             "args": [],
-            "stopAtEntry": "false",
+            "stopAtEntry": false,
             
             // this tells VSCode that the target supports only 1 HW breakpoints
             // (https://code.visualstudio.com/docs/cpp/launch-json-reference)
