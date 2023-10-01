@@ -1,11 +1,11 @@
 # launch.json file for VSCode IDE debugging (gdb) with ESP8266 ESP-12E microcontrollers
-aftera a LOT of struggling with the settings, I finally made it to get the ball rolling.
+after a LOT of struggling with the settings, I finally made it to get the ball rolling.
 
 IF the launch.json file inside the .vscode folder gets overwritten by PlatformIO use content 
 from this file. Read explanation in comments (note: this is a .json with comments)
 
 
-	// ON PROJECT INITIALIZAZION ALF OF THIS MAY WELL BE REMOVED BY
+	// ON PROJECT INITIALIZAZION PART OF THIS MAY BE REMOVED BY
  	// PLATFORMIO AUTOMATICALLY GENERATED CONTENT (too bad!).
   	// PLEASE REMEBER TO MANUALLY ADD IT AGAIN EVERYTIME
    	//
