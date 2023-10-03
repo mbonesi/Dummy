@@ -68,8 +68,8 @@ from this file. Read explanation in comments (note: this is a .json with comment
                 { "text": "mem 0x40140000 0x5fffffff ro cache" },
                 { "text": "mem 0x60000000 0x60001fff rw" },
                 // If you want to go fast (default: 115200) but
-		// make sure this is the SAME baudrate as the one
-  		// you specify in Serial.open(..blabla..); code
+                // make sure this is the SAME baudrate as the one
+                // you specify in Serial.open(..blabla..); code
                 { "text": "set serial baud 921600" }
             ]
         }
